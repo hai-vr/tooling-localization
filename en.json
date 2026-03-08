@@ -1,0 +1,75 @@
+{
+    "_meta": {
+        "language": "en",
+        "name": "English",
+        "variant": ""
+    },
+    "dev.hai-vr.constraint-tools": {
+        "phrases": {
+            "activate_with_skinned_offsets": "Activate with Skinned Offsets",
+            "apply_skinned_mesh_constraint": "Apply Skinned Mesh Constraint",
+            "bind_method": "Bind Method",
+            "create_parent_constraint": "Create Parent Constraint",
+            "msg_builder_can_be_removed": "If you're finished, you can remove this Skinned Mesh Constraint Builder.",
+            "msg_not_enough_bones": "This constraint only has one bone. You should parent to that bone instead, or use a bone proxy.",
+            "remove_skinned_mesh_constraint_builder": "Remove Skinned Mesh Constraint Builder",
+            "sampler_offset": "Sampler Offset",
+            "source_mesh": "Source Mesh",
+            "update_offset": "Update Skinned Mesh Constraint offset",
+            "update_parent_constraint": "Update Parent Constraint",
+            "vendor": "Vendor"
+        },
+        "enums": {
+            "Hai.ConstraintTools.Runtime.SkinnedMeshConstraintBuilder+SkinnedMeshConstraintVendor": {
+                "Default": "Default",
+                "Unity": "Unity",
+                "Specific": "Specific"
+            },
+            "Hai.ConstraintTools.Runtime.SkinnedMeshConstraintBuilder+SkinnedMeshConstraintBindMethod": {
+                "ClosestFace": "Closest Face",
+                "ClosestVertex": "Closest Vertex"
+            }
+        }
+    },
+    "dev.hai-vr.hvr.ugc": {
+        "phrases": {
+            "delete_label": "Delete",
+            "disallowed_components_label": "Disallowed components",
+            "missing_scripts_label": "Missing scripts",
+            "non_destructive_components_label": "Non-destructive components",
+            "non_interpolated_rigidbodies_label": "Non-interpolated Rigidbodies",
+            "set_rigidbody_interpolation_setting_label": "Set Rigidbody Interpolation Setting",
+            "set_to_interpolate_label": "Set to Interpolate",
+            "msg_bypass_restrictions": "BYPASS RESTRICTIONS is enabled on the avatar. Illegal components will be included in the asset bundle. This should only be used for development purposes (e.g., testing sanitization).",
+            "msg_components_with_missing_scripts": "Game objects that have missing scripts in them are shown here. This could be components from other SDKs which would be irrelevant here.",
+            "msg_disallowed_components": "Only components that exist before the avatar build are shown here. If you use non-destructive tooling, some of this may be irrelevant.\nDisallowed components are removed after non-destructive tooling execute.",
+            "msg_rigidbody_not_interpolated": "Some of the rigidbodies have their Interpolation settings set to 'None' or 'Extrapolate'. In HVR, this setting should be set to 'Interpolate' (this recommendation does not apply to all games).",
+            "build_avatar_file": "Build avatar file",
+            "eye_height_label": "Eye height",
+            "move_viewpoint_label": "Move Viewpoint",
+            "unreadable_meshes_label": "Unreadable meshes",
+            "msg_collision_mesh_not_readable": "Some collision meshes do not have Read/Write enabled. Enable Read/Write on the mesh settings so that we can calculate a collision mesh for it.",
+            "msg_component_not_next_to_animator": "This component must be placed on the same GameObject as the Animator component of the avatar.",
+            "msg_no_avatar_name": "Please set the avatar name before building.",
+            "msg_no_collision_meshes": "You have not defined any collision meshes for this avatar. You may not be able to have proper physics-based interactions without it.",
+            "viewpoint_label": "Viewpoint",
+            "create_viewpoint_label": "Create Viewpoint",
+            "physics_label": "Physics",
+            "automatic_changes_label": "Automatic Changes",
+            "edit_viewpoint_label": "Edit Viewpoint",
+            "msg_no_viewpoint": "Please set a viewpoint before building.",
+            "set_rigidbodies_to_interpolate": "Set Rigidbodies to Interpolate",
+            "avatar_name": "Avatar Name",
+            "avatar_base": "Avatar Base",
+            "viewpoint": "Viewpoint",
+            "collision_meshes": "Collision Meshes",
+            "collision_mesh_blendshapes": "Collision Mesh Blendshapes",
+            "bypass_restrictions": "Bypass Restrictions",
+            "belonging_name": "Belonging Name",
+            "build_belonging_file": "Build belonging file",
+            "msg_no_belonging_name": "Please set the belonging name before building."
+        },
+        "enums": {
+        }
+    }
+}
