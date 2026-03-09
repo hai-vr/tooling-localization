@@ -17,7 +17,7 @@
                 "limit_to_specific_meshes": "特定のメッシュに限定",
                 "msg_erase_custom_split_normals_is_enabled": "Erase Custom Split Normalsが有効です。\nこれにより、再計算アルゴリズムが変更されます。この変更により、結果が悪化する可能性があります！\n詳細については、ドキュメントを参照してください。",
                 "open_documentation": "ドキュメントを開く",
-                "renderers": "Renderers",
+                "renderers": "Renderers"
             },
             "generate_twist_bones": {
                 "basic_twist_bones": "基本ツイストボーン",
