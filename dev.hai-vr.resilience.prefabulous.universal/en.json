@@ -8,32 +8,37 @@
     },
     "dev.hai-vr.resilience.prefabulous.universal": {
         "phrases": {
-            "add_blendshapes": "Add BlendShapes",
-            "blendshapes": "BlendShapes",
-            "erase_custom_split_normals": "Erase Custom Split Normals",
-            "limit_to_specific_meshes": "Limit to Specific Meshes",
-            "msg_erase_custom_split_normals_is_enabled": "Erase Custom Split Normals is enabled.\nThis will cause a change in the recalculation algorithm. This change can cause worse results!\nPlease consult the documentation to learn more.",
-            "open_documentation": "Open documentation",
-            "renderers": "Renderers",
-            "show_face_blendshapes": "Show face BlendShapes",
-            "options": "Options",
-            "basic_twist_bones": "Basic twist bones",
-            "custom_twist_bone": "Custom Twist Bone",
-            "experimental_compatibility_options": "Experimental Compatibility Options",
-
-            "left_elbow_joint_lower_arm" : "Left Elbow Joint Lower Arm",
-            "right_elbow_joint_lower_arm" : "Right Elbow Joint Lower Arm",
-            "weight_distribution" :  "Weight Distribution",
-            "exclude_bracelets_and_wristwatches_blendshapes" : "Exclude Bracelets And Wristwatches Blendshapes",
-            "use_custom" :  "Use Custom",
-            "upper_up_suggestion" : "Upper Up Suggestion",
-            "lower_up_suggestion" :  "Lower Up Suggestion",
-            "upper" : "Upper",
-            "lower" :  "Lower",
-            "tip" : "Tip",
-            "is_main_armature" :  "Is Main Armature",
-            "generate_before_modular_avatar_merge_armature" : "Generate Before Modular Avatar Merge Armature",
-            "generate_in_optimizing_phase" :  "Generate In Optimizing Phase"
+            "util": {
+                "add_blendshapes": "Add BlendShapes",
+                "show_face_blendshapes": "Show face BlendShapes"
+            },
+            "recalculate_normals": {
+                "blendshapes": "BlendShapes",
+                "erase_custom_split_normals": "Erase Custom Split Normals",
+                "limit_to_specific_meshes": "Limit to Specific Meshes",
+                "msg_erase_custom_split_normals_is_enabled": "Erase Custom Split Normals is enabled.\nThis will cause a change in the recalculation algorithm. This change can cause worse results!\nPlease consult the documentation to learn more.",
+                "open_documentation": "Open documentation",
+                "renderers": "Renderers"
+            },
+            "generate_twist_bones": {
+                "basic_twist_bones": "Basic twist bones",
+                "custom_twist_bone": "Custom Twist Bone",
+                "exclude_bracelets_and_wristwatches_blendshapes": "Exclude Bracelets And Wristwatches Blendshapes",
+                "experimental_compatibility_options": "Experimental Compatibility Options",
+                "generate_before_modular_avatar_merge_armature": "Generate Before Modular Avatar Merge Armature",
+                "generate_in_optimizing_phase": "Generate In Optimizing Phase",
+                "is_main_armature": "Is Main Armature",
+                "left_elbow_joint_lower_arm": "Left Elbow Joint Lower Arm",
+                "lower": "Lower",
+                "lower_up_suggestion": "Lower Up Suggestion",
+                "options": "Options",
+                "right_elbow_joint_lower_arm": "Right Elbow Joint Lower Arm",
+                "tip": "Tip",
+                "upper": "Upper",
+                "upper_up_suggestion": "Upper Up Suggestion",
+                "use_custom": "Use Custom",
+                "weight_distribution": "Weight Distribution"
+            }
         },
         "enums": {
         }
